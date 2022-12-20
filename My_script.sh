@@ -63,11 +63,8 @@ elif [ "${cluster_name}" == "aws-staging-01" ]; then
     readonly aws_region=us-east-1
     readonly environment=staging01
     readonly bastion_ip=44.199.143.178
-# elif [ "${cluster_name}" == "aws-staging-2-new" ]; then
-#     readonly domain_name="dev.kubernetes.sysdig.tools"
-#     readonly aws_region=us-east-1
-#     readonly environment=staging2
-#     readonly bastion_ip=
+    
+#For "${cluster_name}" = "aws-staging-2-new"
 else
     readonly domain_name="dev.kubernetes.sysdig.tools"
     readonly aws_region=us-east-1
