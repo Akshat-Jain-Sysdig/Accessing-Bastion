@@ -22,7 +22,7 @@ elif [ "${cluster_name}" == "aws-devops-utility" ]; then
     readonly domain_name="internal.sysdig.tools"
     readonly aws_region=us-east-1
     readonly environment=utility
-    readonly bastion_ip=44.199.143.178
+    readonly bastion_ip=54.237.165.52
 elif [ "${cluster_name}" == "aws-integration-01" ]; then
     readonly domain_name="dev.kubernetes.sysdig.tools"
     readonly aws_region=us-east-1
